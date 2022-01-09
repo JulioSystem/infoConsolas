@@ -13,9 +13,9 @@ font-family: 'Urbanist', sans-serif;
     font-family: 'Urbanist', sans-serif;
 }
 
-/* body{
+body{
     background-color: #8faca8b6;
-} */
+}
 
 .nav{
     display: flex;
@@ -26,9 +26,10 @@ font-family: 'Urbanist', sans-serif;
 }
 
 .nav .nav-item{
-    border: 3px solid #212121;
+    border: 3px solid #ccc;
     padding: 1%;
     border-radius: 100px;
+    background-color: #fff;
 }
 
 .nav .nav-item li{
@@ -65,10 +66,9 @@ font-family: 'Urbanist', sans-serif;
     align-items: center;
     padding: 3%;
     margin-top: 30px;
-    border: 3px solid #212121;
+    border: 3px solid #ccc;
     border-radius: 100px;
-    
-    /* background-color: #fff; */
+    background-color: #fff;
 }
 
 .reusable-item{
@@ -86,4 +86,8 @@ font-family: 'Urbanist', sans-serif;
 
 .reusable-item h2{
     text-decoration: red;
+}
+
+.reusable-list{
+    padding-left: 50px;
 }
