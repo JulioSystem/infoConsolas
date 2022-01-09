@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@300;400;700&display=swap');
+
+/* 
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Urbanist', sans-serif;
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Urbanist', sans-serif;
+}
+
+body{
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3%;
+    
+}
+
+.nav .nav-item{
+
+    border: 3px solid #212121;
+}
+
+.nav .nav-item li{
+    list-style: none;
+    display: inline-block;
+}
+
+.nav .nav-item li a{
+    padding: 0 15px;
+    text-decoration: none;
+    color: #000;
+}
+
+.nav .nav-item li a:hover{
+    color: #00a8e8;
+}
+
+
+.principalContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+}
+
+.boxReusable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+    margin-top: 30px;
+    border: 3px solid #212121;
+    border-radius: 100px;
+}
+
+.reusable-item{
+    width: 400px;
+    text-align: center;
+    padding: 0 3%;
+}
+
+.reusable-item img{
+    width: 350px;
+    height: 250px;
+    padding: 5% 0;
+    border-radius: 50px;
+}
+
+
+/*
+003459
+007ea7
+00a8e8
+*/
